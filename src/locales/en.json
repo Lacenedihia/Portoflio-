@@ -1,0 +1,164 @@
+{
+    "Visit My GitHub": "Visit My GitHub",
+    "Contact Me": "Contact Me",
+    "Home": "Home",
+    "About Me": "About Me",
+    "Portfolio": "Portfolio",
+    "Contact": "Contact",
+    "Made with ♡ by Dihia": "Made with ♡ by Dihia",
+    "Incorporates resources from": "Incorporates resources from",
+    "Programming": "Programming",
+    "BSc thesis": "BSc thesis",
+    "Contact Me": "Contact Me",
+    "Let's connect!": "Let's connect!",
+    "First Name": "First Name",
+    "Last Name": "Last Name",
+    "Email": "Email",
+    "Phone-number": "Phone-number",
+    "Choose a topic": "Choose a topic",
+    "Type your message...": "Type your message...",
+    "Message": "Message",
+    "Submit": "Submit",
+    "Get In Touch": "Get In Touch",
+    "placeholder": {
+        "typeMessage": "Type your message..."
+    },
+    "My Portfolio": "My Portfolio",
+    "Recent Projects": "Recent Projects",
+    "about": {
+        "about": "About",
+        "aboutme": "About Me",
+        "description": " A recent Master's graduate in Telecommunications Engineering, I'm a versatile professional with a strong foundation in electronics, AI, and data science. I have hands-on experience in both front-end and back-end web development using React, Vue.js, and Node.js, allowing me to build comprehensive projects from start to finish. I'm skilled in leveraging my technical expertise to solve problems and am passionate about developing solutions that sit at the intersection of engineering and technology."
+    },
+    "hero": {
+        "greeting": "Hey,",
+        "im": "I'm",
+        "intro": "Welcome to my portfolio! Enjoy!",
+        "getInTouch": "Get In Touch",
+        "downloadCV": "Download CV",
+        "downloadCertificates": "Download my certificates"
+    },
+    "skills": {
+        "title": "My Skills",
+        "heading": "My Expertise",
+        "items": [
+            {
+                "id": "1",
+                "src": "./img/programming.png",
+                "title": "Full-Stack Web Development",
+                "description": "Designing, developing, and deploying modern web applications. Proficient in front-end frameworks like **React** and **Vue.js**, with a strong command of back-end technologies using **Node.js**."
+            },
+            {
+                "id": "2",
+                "src": "./img/datavisualization.png",
+                "title": "Data Science & AI",
+                "description": "Transforming complex datasets into actionable insights using **Python** and its ecosystem of libraries. Experienced in **data engineering** pipelines, machine learning, and creating interactive **data visualizations**."
+            },
+            {
+                "id": "3",
+                "src": "./img/communication.png",
+                "title": "Telecommunications & Electronics Engineering",
+                "description": "Applying a foundational understanding of telecommunications and electronics principles to real-world problems. Skilled in signal processing, network analysis, and system design."
+            },
+            {
+                "id": "4",
+                "src": "./img/blender.png",
+                "title": "3D Modeling & Simulation",
+                "description": "Creating and simulating 3D models of antennas and electromagnetic components for engineering analysis using **CST Studio Suite**."
+            },
+            {
+                "id": "5",
+                "src": "./img/powerpoint.png",
+                "title": "Technical Communication",
+                "description": "Effectively communicating complex technical concepts and project outcomes through professional-grade reports and presentations. Experienced with tools like **Overleaf (LaTeX)** for academic writing and **PowerPoint** for visual presentations."
+            }
+        ]
+    },
+    "portfolio": {
+        "portfolio_1": [
+            {
+                "id": "1",
+                "src": "./img/random.png",
+                "title": "Random Quote Generator ",
+                "description": "It is a simple web application that displays random quotes to users.",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/RandomQuotegenerator-",
+                "website": "https://wonderful-biscochitos-8c214b.netlify.app/",
+                "caption": "The Demo"
+            },
+            {
+                "id": "2",
+                "src": "./img/map.png",
+                "title": "Choropleth Map",
+                "description": "This project aims to visualize the population distribution in Algeria using a choropleth map.",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Choropleth-Map-Algeria-population-distribution-2020",
+                "website": "https://lacenedihia.github.io/Choropleth-Map-Algeria-population-distribution-2020/",
+                "caption": "The Demo"
+            },
+            {
+                "id": "3",
+                "src": "./img/heatmap.png",
+                "title": "Heatmap",
+                "description": "This project aims to create a heatmap that visualizes the distribution of a specific disease before and after the introduction of a vaccine. ",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Heatmap",
+                "website": "https://65d9a62461370cc5a187c846--adorable-torrone-4ac080.netlify.app/",
+                "caption": "The Demo"
+            },
+            {
+                "id": "4",
+                "src": "./img/scatterplot.png",
+                "title": "ScatterPlot",
+                "description": "the Iris dataset, comprises 150 samples of iris flowers, each characterized by four features.",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/ScatterPlot",
+                "website": "https://incredible-klepon-1eec40.netlify.app/",
+                "caption": "The Demo"
+            },
+            {
+                "id": "5",
+                "src": "./img/bar chart.png",
+                "title": "Interactive Legend Bar Chart ",
+                "description": "This project aims to create a bar chart that visualizes the distribution of different religions in various countries.",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Bar-chart-",
+                "website": "https://inspiring-swan-6e10c4.netlify.app/",
+                "caption": "The Demo"
+            },
+            {
+                "id": "6",
+                "src": "./img/calculator.png",
+                "title": "Basic Calculator using JavaScript",
+                "description": "This project aims to create a basic calculator using JavaScript, a popular programming language for web development.",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Calculator",
+                "website": "https://admirable-wisp-2e443e.netlify.app/",
+                "caption": "The Demo"
+            }
+        ],
+        "PowerPoint": [
+            {
+                "id": "1",
+                "src": "./img/ppt1.png",
+                "name": "./img/Présentation Bsc",
+                "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjGOecp-Fm5abxIuT?e=fcZDfx&nav=eyJzSWQiOjM0OCwiY0lkIjoxNDA3NTk4Mjk1fQ",
+                "caption": "The Demo"
+            },
+            {
+                "id": "2",
+                "src": "./img/SS.png",
+                "name": "./img/Solar System.pptx",
+                "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjFSpwuJ2Ml8kFNvA?e=uUIaEk&nav=eyJzSWQiOjI2MywiY0lkIjozMzU0MDMxODk0fQ",
+                "caption": "The Demo"
+            },
+            {
+                "id": "3",
+                "src": "./img/RN.png",
+                "name": "./img/Renewable Energy.pptx",
+                "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjFW-IwGR0hy1CZDT?e=qK3I2U&nav=eyJzSWQiOjI1NiwiY0lkIjozMjcwNDg4MjUwfQ",
+                "caption": "The Demo"
+            }
+        ]
+    }
+}

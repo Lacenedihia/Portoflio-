@@ -1,0 +1,165 @@
+{
+    "Visit My GitHub": "Visitez Mon GitHub",
+    "BSc thesis": "Projet de fin d'études",
+    "Programming": "Programmation",
+    "Type your message...": "tapez",
+    "Contact Me": "Contactez-moi",
+    "Home": "Accueil",
+    "About Me": "À Propos de Moi",
+    "Portfolio": "Portfolio",
+    "Contact": "Contact",
+    "Made with ♡ by Dihia": "Fait avec ♡ par Dihia",
+    "Incorporates resources from": "Intègre des ressources de",
+    "Contact Me": "Contactez-moi",
+    "Let's connect!": "Connectons-nous !",
+    "First Name": "Prénom",
+    "Last Name": "Nom de famille",
+    "Email": "E-mail",
+    "Phone-number": "Numéro de téléphone",
+    "Choose a topic": "Choisissez un sujet",
+    "Type your message...": "Tapez votre message...",
+    "Message": "Message",
+    "Submit": "Envoyer",
+    "Get In Touch": "Contactez-nous",
+    "placeholder": {
+        "typeMessage": "Tapez votre message..."
+    },
+    "My Portfolio": "Mon Portfolio",
+    "Recent Projects": "Projets Récents",
+    "about": {
+        "about": "À Propos",
+        "aboutme": "À Propos de Moi",
+        "description": "Récemment diplômé d'un Master en Ingénierie des Télécommunications, je suis un professionnel polyvalent avec de solides bases en électronique, en IA et en science des données. J'ai une expérience pratique du développement web front-end et back-end en utilisant React, Vue.js et Node.js, ce qui me permet de réaliser des projets complets de A à Z. Je suis compétent pour mettre à profit mon expertise technique afin de résoudre des problèmes et je suis passionné par le développement de solutions qui se trouvent à l'intersection de l'ingénierie et de la technologie."
+    },
+    "hero": {
+        "greeting": "Salut,",
+        "im": "Je suis",
+        "intro": "Bienvenue sur mon portfolio ! Profitez !",
+        "getInTouch": "Contactez-moi",
+        "downloadCV": "Télécharger CV",
+        "downloadCertificates": "Télécharger mes certificats"
+    },
+    "skills": {
+        "title": "Mes Compétences",
+        "heading": "Mon Expertise",
+        "items": [
+            {
+                "id": "1",
+                "src": "./img/programming.png",
+                "title": "Développement Web Full-Stack",
+                "description": "Conception, développement et déploiement d'applications web modernes. Maîtrise des frameworks front-end tels que **React** et **Vue.js**, avec une solide expertise des technologies back-end utilisant **Node.js**."
+            },
+            {
+                "id": "2",
+                "src": "./img/datavisualization.png",
+                "title": "Science des Données & IA",
+                "description": "Transformer des ensembles de données complexes en informations exploitables à l'aide de **Python** et de son écosystème de bibliothèques. Expérimenté dans les pipelines d'**ingénierie des données**, le machine learning et la création de **visualisations de données** interactives."
+            },
+            {
+                "id": "3",
+                "src": "./img/communication.png",
+                "title": "Ingénierie des Télécommunications & Électronique",
+                "description": "Application des principes fondamentaux des télécommunications et de l'électronique à des problèmes concrets. Compétence en traitement du signal, en analyse de réseau et en conception de systèmes."
+            },
+            {
+                "id": "4",
+                "src": "./img/blender.png",
+                "title": "Modélisation & Simulation 3D",
+                "description": "Création et simulation de modèles 3D d'antennes et de composants électromagnétiques pour l'analyse technique à l'aide de **CST Studio Suite**."
+            },
+            {
+                "id": "5",
+                "src": "./img/powerpoint.png",
+                "title": "Communication Technique",
+                "description": "Communication efficace de concepts techniques complexes et de résultats de projets au moyen de rapports et de présentations de qualité professionnelle. Expérience avec des outils comme **Overleaf (LaTeX)** pour la rédaction académique et **PowerPoint** pour les présentations visuelles."
+            }
+        ]
+    },
+    "portfolio": {
+        "portfolio_1": [
+            {
+                "id": "1",
+                "src": "./img/random.png",
+                "title": "Générateur de citations aléatoires",
+                "description": "Une application web simple qui affiche des citations aléatoires aux utilisateurs.",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/RandomQuotegenerator-",
+                "website": "https://wonderful-biscochitos-8c214b.netlify.app/",
+                "caption": "La démo"
+            },
+            {
+                "id": "2",
+                "src": "./img/map.png",
+                "title": "Carte choroplèthe",
+                "description": "Ce projet a pour but de visualiser la distribution de la population en Algérie à l'aide d'une carte choroplèthe.",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Choropleth-Map-Algeria-population-distribution-2020",
+                "website": "https://lacenedihia.github.io/Choropleth-Map-Algeria-population-distribution-2020/",
+                "caption": "La démo"
+            },
+            {
+                "id": "3",
+                "src": "./img/heatmap.png",
+                "title": "Carte de chaleur",
+                "description": "Ce projet vise à créer une carte de chaleur qui visualise la distribution d'une maladie spécifique avant et après l'introduction d'un vaccin.",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Heatmap",
+                "website": "https://65d9a62461370cc5a187c846--adorable-torrone-4ac080.netlify.app/",
+                "caption": "La démo"
+            },
+            {
+                "id": "4",
+                "src": "./img/scatterplot.png",
+                "title": "Nuage de points",
+                "description": "L'ensemble de données Iris, qui comprend 150 échantillons de fleurs d'iris, chacune caractérisée par quatre caractéristiques.",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/ScatterPlot",
+                "website": "https://incredible-klepon-1eec40.netlify.app/",
+                "caption": "La démo"
+            },
+            {
+                "id": "5",
+                "src": "./img/bar chart.png",
+                "title": "Graphique à barres avec légende interactive",
+                "description": "Ce projet a pour but de créer un graphique à barres qui visualise la répartition des différentes religions dans différents pays.",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Bar-chart-",
+                "website": "https://inspiring-swan-6e10c4.netlify.app/",
+                "caption": "La démo"
+            },
+            {
+                "id": "6",
+                "src": "./img/calculator.png",
+                "title": "Calculatrice basique en JavaScript",
+                "description": "Ce projet vise à créer une calculatrice basique en utilisant JavaScript, un langage de programmation populaire pour le développement web.",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Calculator",
+                "website": "https://admirable-wisp-2e443e.netlify.app/",
+                "caption": "La démo"
+            }
+        ],
+        "PowerPoint": [
+            {
+                "id": "1",
+                "src": "./img/ppt1.png",
+                "name": "./img/Présentation Bsc",
+                "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjGOecp-Fm5abxIuT?e=fcZDfx&nav=eyJzSWQiOjM0OCwiY0lkIjoxNDA3NTk4Mjk1fQ",
+                "caption": "La démo"
+            },
+            {
+                "id": "2",
+                "src": "./img/SS.png",
+                "name": "./img/Solar System.pptx",
+                "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjFSpwuJ2Ml8kFNvA?e=uUIaEk&nav=eyJzSWQiOjI2MywiY0lkIjozMzU0MDMxODk0fQ",
+                "caption": "La démo"
+            },
+            {
+                "id": "3",
+                "src": "./img/RN.png",
+                "name": "./img/Renewable Energy.pptx",
+                "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjFW-IwGR0hy1CZDT?e=qK3I2U&nav=eyJzSWQiOjI1NiwiY0lkIjozMjcwNDg4MjUwfQ",
+                "caption": "La démo"
+            }
+        ]
+    }
+}
