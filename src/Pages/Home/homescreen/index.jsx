@@ -8,17 +8,17 @@ import MySkills from "../myskills";
 
 
 
-
 export default function Home() {
   return (
     <>
-      <HeroSection /> {/*MAj in function nmae is important to be an element in react */}
+      <HeroSection />
       <MySkills />
       <AboutMe />
       <MyPortfolio />
+
       <ContactMe />
       <Footer />
-      
+
     </>
   );
 }

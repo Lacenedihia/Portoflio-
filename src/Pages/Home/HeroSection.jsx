@@ -14,13 +14,13 @@ export default function HeroSection() {
       <div className="hero--section--content--box">
         <div className="hero--section--content" data-aos='fade-out' data-aos-anchor-placement="top-center">
 
-          <h1 className="hero--section--title" >
+          <h1 className="hero--section--title" style={{ marginBottom: "150px" }}>
             {t("hero.greeting")}
             <br />
             {t("hero.im")} {""}
             <span style={{ color: "#e0b101" }}>
               <Typewriter
-                words={['LACENE Dihia', ' an Electronic and Electrical Engineering Graduate', ' a Software Engineer', ' a Designer']}
+                words={['LACENE Dihia', ' an Electronic and Electrical Engineering Graduate', ' a Software Engineer', ' a Telecommunicaton Enginneer']}
                 loop
                 cursor
                 cursorColor="#64b9ef"
@@ -30,9 +30,7 @@ export default function HeroSection() {
 
             </span>
           </h1>
-          <p className="hero--section-description">
-            {t("hero.intro")}
-          </p>
+
         </div >
         <div data-aos='fade-left' data-aos-anchor-placement="top"><a href="#Contact"><button className="btn btn-primary">{t("hero.getInTouch")}</button></a></div>
         <div data-aos='fade-left' data-aos-anchor-placement="top">

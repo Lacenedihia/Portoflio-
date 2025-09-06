@@ -71,50 +71,144 @@ export default function MyPortfolio() {
                   key={index}
                   onClick={() => window.open(item.href, "_blank")}
                 >
-                  <p className="text-sm portfolio--link">
-                    {item.link}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="30"
-                      height="30"
-                      viewBox="0 0 640 512"
-                      fill="black"
-                    >
-                      <path
-                        d="M429.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8H224V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z"
-                        stroke="currentColor"
-                        strokeWidth="2.66667"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="icon"
-                      />
-                    </svg>
-                  </p>
+
+                  <button class="button">
+                    <svg class="svgIcon" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm50.7-186.9L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path></svg>
+                    Explore
+                  </button>
+
+
                 </div>
+
                 <div
                   key={index}
-                  onClick={() => window.open(item.website, "_blank")}
+                  onClick={() => window.open(item.href, "_blank")}
                 >
-                  <p className="text-sm portfolio--link">
-                    {item.caption}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="30"
-                      height="30"
-                      viewBox="0 0 640 512"
-                      fill="black"
-                    >
-                      <path
-                        d="M429.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8H224V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z"
-                        stroke="currentColor"
-                        strokeWidth="2.66667"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="icon"
-                      />
-                    </svg>
-                  </p>
+                  <button class="Explore-Button">
+                    <span class="IconContainer">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 156 78"
+                        class="telescope"
+                      >
+                        <path
+                          fill="url(#paint0_linear_131_19)"
+                          d="M10.3968 78C10.6002 78 32 72.831 32 72.831C29.5031 68.7434 27.3945 63.5193 26.0258 57.947C24.6386 52.3381 24.0837 46.7841 24.3982 42L3.38683 47.0957C0.0205717 47.9206 -1.0152 55.4725 1.09333 63.9959C3.05409 72.0061 7.10469 78 10.3968 78Z"
+                        ></path>
+                        <path
+                          fill="url(#paint1_linear_131_19)"
+                          d="M63.0824 25L34.8099 32.0351C33.7675 32.2957 32.8714 33.0215 32.1582 34.1382C31.6096 34.9943 31.1524 36.0738 30.8049 37.3393C30.5489 38.2513 30.366 39.2563 30.238 40.3544C29.6894 44.7839 30.0734 50.5348 31.5547 56.6207C33.0177 62.7067 35.2854 67.9925 37.7725 71.6587C38.3942 72.5707 39.016 73.371 39.6561 74.0596C40.5339 75.0274 41.43 75.7718 42.3078 76.2743C43.1307 76.7396 43.9536 77 44.74 77C45.0326 77 45.3252 76.9628 45.5995 76.8883L72.5919 70.1698L74 69.8164C69.867 64.1027 66.6484 56.1184 64.7282 48.1527C62.7532 39.9451 62.1497 31.8306 63.0094 25.3166C63.0458 25.2233 63.0643 25.1117 63.0824 25Z"
+                        ></path>
+                        <path
+                          fill="url(#paint2_linear_131_19)"
+                          d="M155.865 50.9153L144.361 3.54791C143.844 1.43031 141.964 0 139.88 0C139.512 0 139.143 0.0371509 138.774 0.130028L75.0921 15.8448C74.3361 16.0306 73.654 16.4021 73.0271 16.9594C72.1239 17.7581 71.3493 18.9284 70.7411 20.3958C70.3537 21.3246 70.0403 22.3648 69.7823 23.4979C68.4731 29.2935 68.7683 37.7267 70.9621 46.7544C73.2115 55.9863 76.9358 63.7509 80.8447 68.2277C81.6375 69.1194 82.4303 69.8995 83.2229 70.5125C83.4259 70.6795 83.6654 70.8283 83.9051 70.9581C85.6752 71.9798 87.7955 72.2584 89.7865 71.7571L152.492 56.5065C154.962 55.912 156.474 53.4044 155.865 50.9153Z"
+                        ></path>
+                        <defs>
+                          <linearGradient
+                            gradientUnits="userSpaceOnUse"
+                            y2="78"
+                            x2="16"
+                            y1="42"
+                            x1="16"
+                            id="paint0_linear_131_19"
+                          >
+                            <stop stop-color="#e5c04a"></stop>
+                            <stop stop-color="#e5c04a" offset="1"></stop>
+                          </linearGradient>
+                          <linearGradient
+                            gradientUnits="userSpaceOnUse"
+                            y2="77"
+                            x2="52"
+                            y1="25"
+                            x1="52"
+                            id="paint1_linear_131_19"
+                          >
+                            <stop stop-color="#e5c04a"></stop>
+                            <stop stop-color="#e5c04a" offset="1"></stop>
+                          </linearGradient>
+                          <linearGradient
+                            gradientUnits="userSpaceOnUse"
+                            y2="72"
+                            x2="112.5"
+                            y1="0"
+                            x1="112.5"
+                            id="paint2_linear_131_19"
+                          >
+                            <stop stop-color="#e5c04a"></stop>
+                            <stop stop-color="#e5c04a" offset="1"></stop>
+                          </linearGradient>
+                        </defs>
+                      </svg>
+
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 104 69"
+                        class="tripod"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-width="11"
+                          stroke="url(#paint0_linear_124_14)"
+                          d="M98.4336 63.3406L52 5.99991"
+                        ></path>
+                        <path
+                          stroke-linecap="round"
+                          stroke-width="11"
+                          stroke="url(#paint1_linear_124_14)"
+                          d="M52.4336 6L6.00004 63.3407"
+                        ></path>
+                        <path
+                          stroke-linecap="round"
+                          stroke-width="11"
+                          stroke="url(#paint2_linear_124_14)"
+                          d="M52 63L52 6"
+                        ></path>
+                        <defs>
+                          <linearGradient
+                            gradientUnits="userSpaceOnUse"
+                            y2="40.5"
+                            x2="68"
+                            y1="32"
+                            x1="77.5"
+                            id="paint0_linear_124_14"
+                          >
+                            <stop stop-color="#e5c04a"></stop>
+                            <stop stop-color="#e5c04a" offset="1"></stop>
+                          </linearGradient>
+                          <linearGradient
+                            gradientUnits="userSpaceOnUse"
+                            y2="40.5174"
+                            x2="36.4196"
+                            y1="32.9922"
+                            x1="26.1302"
+                            id="paint1_linear_124_14"
+                          >
+                            <stop stop-color="#e5c04a"></stop>
+                            <stop stop-color="#e5c04a" offset="1"></stop>
+                          </linearGradient>
+                          <linearGradient
+                            gradientUnits="userSpaceOnUse"
+                            y2="34.8174"
+                            x2="42.7435"
+                            y1="34.0069"
+                            x1="55.4548"
+                            id="paint2_linear_124_14"
+                          >
+                            <stop stop-color="#e5c04a"></stop>
+                            <stop stop-color="#e5c04a" offset="1"></stop>
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                    </span>
+
+                    <span class="textbutton">Explore</span>
+                  </button>
+
                 </div>
+
+
               </div>
             </div>
           </div>
@@ -127,62 +221,58 @@ export default function MyPortfolio() {
 
 
 
-      <h2 className="section--heading">PowerPoints</h2>
+      <h2 >PowerPoints</h2>
       <div className="contain">
-
         {data?.["PowerPoint"]?.map((item, index) => (
-          <div key={index} className="boxx" data-aos='fade-right' data-aos-anchor-placement="center-bottom" >
-            <div className="portfolio--section--img"><a href={item.website} target="_blank" rel="noopener noreferrer">
+          <div key={index} className="boxx " data-aos='fade-up'>
+
+            <div className="portfolio--section--img">
               <img
                 className="portfolio--img"
                 src={item.src}
                 alt="Placeholder"
-              /></a>
-            </div>
+              />
+              <div
+                className="powerpoint"
+                onClick={() => window.open(item.website, "_blank")}
+              >
 
-            <div
-              key={index}
-            >
-              <p className="text-sm portfoliolink">
-                {item.caption}
-                <a href={item.website} target="_blank" rel="noopener noreferrer">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="30"
-                    height="30"
-                    viewBox="0 0 384 512"
-                    fill="grey"
-                  >
-                    <path
-                      d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM216 232V334.1l31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0l-72-72c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l31 31V232c0-13.3 10.7-24 24-24s24 10.7 24 24z"
-                      stroke="currentColor"
-                      strokeWidth="2.66667"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="icon"
-                    />
-                  </svg>
-                </a>
-              </p>
 
+
+
+                <div class="container">
+                  <label class="label">
+                    <input type="checkbox" class="input" />
+                    <span class="circle"
+                    ><svg
+                      class="icon"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                        <path
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"
+                          d="M12 19V5m0 14-4-4m4 4 4-4"
+                        ></path>
+                      </svg>
+                      <div class="square"></div>
+                    </span>
+                    <p class="title">Download</p>
+                    <p class="title">Downloaded !</p>
+                  </label>
+                </div>
+
+
+              </div>
             </div>
 
           </div>
-
-
         ))}
-
-
-
       </div>
     </section>
   );
 }
-/*<svg xmlns="http://www.w3.org/2000/svg" 
-viewBox="0 0 640 512">
-<path d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z"
-/></svg> */
-/*
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-<path d="M429.6 92.1c4.9-11.9 2.1-25.6-7-34.7s-22.8-11.9-34.7-7l-352 144c-14.2 5.8-22.2 20.8-19.3 35.8s16.1 25.8 31.4 25.8H224V432c0 15.3 10.8 28.4 25.8 31.4s30-5.1 35.8-19.3l144-352z"
-/></svg> */

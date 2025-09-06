@@ -8,7 +8,7 @@
     },
     {
       "id": "2",
-      "src": "./img/datavisualization.png",
+      "src": "./img/datavisualization.svg",
       "title": "Data Science & AI",
       "description": "Transforming complex datasets into actionable insights using **Python** and its ecosystem of libraries. Experienced in **data engineering** pipelines, machine learning, and creating interactive **data visualizations**."
     },
@@ -95,24 +95,14 @@
   ],
   "PowerPoint": [
     {
-      "id": "1",
+      "id": "2",
       "src": "./img/ppt1.png",
+      "title": "Random Quote Generator ",
+      "description": "It is a simple web application that displays random quotes to users.",
+      "link": "View In Github",
+      "href": "https://github.com/Lacenedihia/RandomQuotegenerator-",
       "name": "./img/Présentation Bsc",
       "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjGOecp-Fm5abxIuT?e=fcZDfx&nav=eyJzSWQiOjM0OCwiY0lkIjoxNDA3NTk4Mjk1fQ",
-      "caption": "The Demo"
-    },
-    {
-      "id": "2",
-      "src": "./img/SS.png",
-      "name": "./img/Solar System.pptx",
-      "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjFSpwuJ2Ml8kFNvA?e=uUIaEk&nav=eyJzSWQiOjI2MywiY0lkIjozMzU0MDMxODk0fQ",
-      "caption": "The Demo"
-    },
-    {
-      "id": "3",
-      "src": "./img/RN.png",
-      "name": "./img/Renewable Energy.pptx",
-      "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjFW-IwGR0hy1CZDT?e=qK3I2U&nav=eyJzSWQiOjI1NiwiY0lkIjozMjcwNDg4MjUwfQ",
       "caption": "The Demo"
     }
   ]
