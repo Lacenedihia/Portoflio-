@@ -159,7 +159,7 @@ export default function MyPortfolio() {
 
 
 
-        {t("portfolio.portfolio_4").map((item, index) => (
+        {t("portfolio.portfolio_3").map((item, index) => (
           <div key={index} className="boxx" data-aos='fade-right' data-aos-anchor-placement="center-bottom" >
             <div className="portfolio--section--img">
               <img
