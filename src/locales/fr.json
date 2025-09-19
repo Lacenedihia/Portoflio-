@@ -18,6 +18,8 @@
     "Phone-number": "Numéro de téléphone",
     "Choose a topic": "Choisissez un sujet",
     "Type your message...": "Tapez votre message...",
+    "Deep Learning and Machine Learning Projects": "Projets de Deep Learning et de Machine Learning",
+    "Achievments": "Réalisations",
     "Message": "Message",
     "Submit": "Envoyer",
     "Get In Touch": "Contactez-nous",
@@ -47,13 +49,13 @@
                 "id": "1",
                 "src": "./img/programming.png",
                 "title": "Développement Web Full-Stack",
-                "description": "Conception, développement et déploiement d'applications web modernes. Maîtrise des frameworks front-end tels que **React** et **Vue.js**, avec une solide expertise des technologies back-end utilisant **Node.js**."
+                "description": "Conception, développement et déploiement d'applications web modernes. Maîtrise des frameworks front-end tels que React et Vue.js, avec une solide expertise des technologies back-end utilisant Node.js."
             },
             {
                 "id": "2",
                 "src": "./img/datavisualization.png",
                 "title": "Science des Données & IA",
-                "description": "Transformer des ensembles de données complexes en informations exploitables à l'aide de **Python** et de son écosystème de bibliothèques. Expérimenté dans les pipelines d'**ingénierie des données**, le machine learning et la création de **visualisations de données** interactives."
+                "description": "Transformer des ensembles de données complexes en informations exploitables à l'aide de Python et de son écosystème de bibliothèques. Expérimenté dans les pipelines d'ingénierie des données, le machine learning et la création de visualisations de données interactives."
             },
             {
                 "id": "3",
@@ -65,13 +67,13 @@
                 "id": "4",
                 "src": "./img/blender.png",
                 "title": "Modélisation & Simulation 3D",
-                "description": "Création et simulation de modèles 3D d'antennes et de composants électromagnétiques pour l'analyse technique à l'aide de **CST Studio Suite**."
+                "description": "Création et simulation de modèles 3D d'antennes et de composants électromagnétiques pour l'analyse technique à l'aide de CST Studio Suite."
             },
             {
                 "id": "5",
                 "src": "./img/powerpoint.png",
                 "title": "Communication Technique",
-                "description": "Communication efficace de concepts techniques complexes et de résultats de projets au moyen de rapports et de présentations de qualité professionnelle. Expérience avec des outils comme **Overleaf (LaTeX)** pour la rédaction académique et **PowerPoint** pour les présentations visuelles."
+                "description": "Communication efficace de concepts techniques complexes et de résultats de projets au moyen de rapports et de présentations de qualité professionnelle. Expérience avec des outils comme Overleaf (LaTeX) pour la rédaction académique et PowerPoint pour les présentations visuelles."
             }
         ]
     },
@@ -79,9 +81,41 @@
         "portfolio_1": [
             {
                 "id": "1",
+                "src": "./img/load.jpeg",
+                "title": "Défi en science des données",
+                "description": "Un projet de compétition de codage en science des données utilisant un ensemble de données réelles pour construire un modèle de prédiction ou de classification. Les participants ont utilisé Python et Jupyter Notebook pour aborder le problème, en se concentrant sur la manipulation des données, l'ingénierie des fonctionnalités et l'évaluation du modèle. La compétition a offert aux apprenants l'occasion d'appliquer leurs compétences en résolution de problèmes et en pensée critique, ainsi que d'acquérir de l'expérience avec les algorithmes d'apprentissage automatique et les techniques de visualisation de données.",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Data-Sciene-Challenge-/blob/main/ChurnPrediction.ipynb",
+                "website": "https://github.com/Lacenedihia/Data-Sciene-Challenge-/blob/main/ChurnPrediction.ipynb",
+                "caption": "La démo"
+            },
+            {
+                "id": "2",
+                "src": "./img/datasciencechallenge.jpeg",
+                "title": "Défi de codage en science des données : Prédiction de défaut de prêt",
+                "description": "Un projet de compétition de codage en science des données utilisant un ensemble de données réelles pour construire un modèle de prédiction ou de classification. Les participants ont utilisé Python et Jupyter Notebook pour aborder le problème, en se concentrant sur la manipulation des données, l'ingénierie des fonctionnalités et l'évaluation du modèle. La compétition a offert aux apprenants l'occasion d'appliquer leurs compétences en résolution de problèmes et en pensée critique, ainsi que d'acquérir de l'expérience avec les algorithmes d'apprentissage automatique et les techniques de visualisation de données.",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Data-Sciene-Challenge-/blob/main/LoanDefaultPrediction.ipynb",
+                "website": "https://github.com/Lacenedihia/Data-Sciene-Challenge-/blob/main/LoanDefaultPrediction.ipynb",
+                "caption": "La démo"
+            },
+            {
+                "id": "3",
+                "src": "./img/green.png",
+                "title": "Projet de fin d'études Green Digital Skills",
+                "description": "Projet de fin d'études pour le programme immersif de 3 mois 'GDS'",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/GDS-Eco-Redesign",
+                "website": "https://main--efredesign.netlify.app/",
+                "caption": "La démo"
+            }
+        ],
+        "portfolio_2": [
+            {
+                "id": "1",
                 "src": "./img/random.png",
                 "title": "Générateur de citations aléatoires",
-                "description": "Une application web simple qui affiche des citations aléatoires aux utilisateurs.",
+                "description": "C'est une application web simple qui affiche des citations aléatoires aux utilisateurs.",
                 "link": "Voir sur Github",
                 "href": "https://github.com/Lacenedihia/RandomQuotegenerator-",
                 "website": "https://wonderful-biscochitos-8c214b.netlify.app/",
@@ -91,7 +125,7 @@
                 "id": "2",
                 "src": "./img/map.png",
                 "title": "Carte choroplèthe",
-                "description": "Ce projet a pour but de visualiser la distribution de la population en Algérie à l'aide d'une carte choroplèthe.",
+                "description": "Ce projet vise à visualiser la distribution de la population en Algérie à l'aide d'une carte choroplèthe.",
                 "link": "Voir sur Github",
                 "href": "https://github.com/Lacenedihia/Choropleth-Map-Algeria-population-distribution-2020",
                 "website": "https://lacenedihia.github.io/Choropleth-Map-Algeria-population-distribution-2020/",
@@ -110,8 +144,8 @@
             {
                 "id": "4",
                 "src": "./img/scatterplot.png",
-                "title": "Nuage de points",
-                "description": "L'ensemble de données Iris, qui comprend 150 échantillons de fleurs d'iris, chacune caractérisée par quatre caractéristiques.",
+                "title": "Diagramme de dispersion",
+                "description": "L'ensemble de données Iris, comprend 150 échantillons de fleurs d'iris, chacune caractérisée par quatre caractéristiques.",
                 "link": "Voir sur Github",
                 "href": "https://github.com/Lacenedihia/ScatterPlot",
                 "website": "https://incredible-klepon-1eec40.netlify.app/",
@@ -121,7 +155,7 @@
                 "id": "5",
                 "src": "./img/bar chart.png",
                 "title": "Graphique à barres avec légende interactive",
-                "description": "Ce projet a pour but de créer un graphique à barres qui visualise la répartition des différentes religions dans différents pays.",
+                "description": "Ce projet vise à créer un graphique à barres qui visualise la distribution de différentes religions dans divers pays.",
                 "link": "Voir sur Github",
                 "href": "https://github.com/Lacenedihia/Bar-chart-",
                 "website": "https://inspiring-swan-6e10c4.netlify.app/",
@@ -130,33 +164,108 @@
             {
                 "id": "6",
                 "src": "./img/calculator.png",
-                "title": "Calculatrice basique en JavaScript",
-                "description": "Ce projet vise à créer une calculatrice basique en utilisant JavaScript, un langage de programmation populaire pour le développement web.",
+                "title": "Calculatrice de base utilisant JavaScript",
+                "description": "Ce projet vise à créer une calculatrice de base utilisant JavaScript, un langage de programmation populaire pour le développement web.",
                 "link": "Voir sur Github",
                 "href": "https://github.com/Lacenedihia/Calculator",
                 "website": "https://admirable-wisp-2e443e.netlify.app/",
                 "caption": "La démo"
             }
         ],
-        "PowerPoint": [
+        "portfolio_3": [
             {
                 "id": "1",
-                "src": "./img/ppt1.png",
-                "name": "./img/Présentation Bsc",
-                "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjGOecp-Fm5abxIuT?e=fcZDfx&nav=eyJzSWQiOjM0OCwiY0lkIjoxNDA3NTk4Mjk1fQ",
+                "src": "./img/Pokemon-Search-App.png",
+                "title": "Application de recherche de Pokémon",
+                "description": "",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Pokemon-Search-App",
+                "website": "https://effortless-arithmetic-b5e8d9.netlify.app/",
                 "caption": "La démo"
             },
             {
                 "id": "2",
-                "src": "./img/SS.png",
-                "name": "./img/Solar System.pptx",
-                "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjFSpwuJ2Ml8kFNvA?e=uUIaEk&nav=eyJzSWQiOjI2MywiY0lkIjozMzU0MDMxODk0fQ",
+                "src": "./img/Palindrome-Checker.png",
+                "title": "Vérificateur de palindrome",
+                "description": "",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Palindrome-Checker",
+                "website": "https://roaring-cupcake-ab7f96.netlify.app/",
                 "caption": "La démo"
             },
             {
                 "id": "3",
-                "src": "./img/RN.png",
-                "name": "./img/Renewable Energy.pptx",
+                "src": "./img/Numbers-to-Roman-Numeral-Converter.png",
+                "title": "Convertisseur de nombres en chiffres romains",
+                "description": " ",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Numbers-to-Roman-Numeral-Converter",
+                "website": "https://jade-mandazi-1069f3.netlify.app/",
+                "caption": "La démo"
+            }
+        ],
+        "portfolio_4": [
+            {
+                "id": "1",
+                "src": "./img/Recognizing shapes in a picture-using-Opencv-.png",
+                "title": "Reconnaissance de formes dans une image avec Opencv",
+                "description": "",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Recognizing-shapes-in-a-picture-using-Opencv-",
+                "website": "https://github.com/Lacenedihia/Recognizing-shapes-in-a-picture-using-Opencv-",
+                "caption": "La démo"
+            },
+            {
+                "id": "2",
+                "src": "./img/Classifying-Radio-Signals-Using-Pytorch.png",
+                "title": "Classification des signaux radio avec Pytorch",
+                "description": "",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Classifying-Radio-Signals-Using-Pytorch",
+                "website": "https://github.com/Lacenedihia/Classifying-Radio-Signals-Using-Pytorch",
+                "caption": "La démo"
+            },
+            {
+                "id": "3",
+                "src": "./img/Aerial-Image-Segmentation-with-PyTorch.png",
+                "title": "Segmentation d'images aériennes avec PyTorch",
+                "description": "",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Aerial-Image-Segmentation-with-PyTorch",
+                "website": "https://github.com/Lacenedihia/Aerial-Image-Segmentation-with-PyTorch",
+                "caption": "La démo"
+            },
+            {
+                "id": "4",
+                "src": "./img/Tracking-Robots-using-Particle-Filter.png",
+                "title": "Suivi de robots avec un filtre particulaire",
+                "description": "",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Tracking-Robots-using-Particle-Filter",
+                "website": "https://github.com/Lacenedihia/Tracking-Robots-using-Particle-Filter",
+                "caption": "La démo"
+            },
+            {
+                "id": "5",
+                "src": "./img/Visual-Perception-Visual-Cars.png",
+                "title": "Perception visuelle : voitures visuelles",
+                "description": "",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Visual-Perception-Visual-Cars",
+                "website": "https://github.com/Lacenedihia/Visual-Perception-Visual-Cars",
+                "caption": "La démo"
+            }
+        ],
+        "PowerPoint": [
+            {
+                "id": "2",
+                "src": "./img/Recommender-Systems-in-Python.png",
+                "website": "https://github.com/Lacenedihia/Lacenedihia-IBM-----Machine-Learning-Capstone-Course-Project-/blob/main/my%20submission/Final%20Report.pdf",
+                "caption": "La démo"
+            },
+            {
+                "id": "3",
+                "src": "./img/SpaceX.png",
                 "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjFW-IwGR0hy1CZDT?e=qK3I2U&nav=eyJzSWQiOjI1NiwiY0lkIjozMjcwNDg4MjUwfQ",
                 "caption": "La démo"
             }

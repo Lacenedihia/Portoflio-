@@ -8,7 +8,7 @@
     },
     {
       "id": "2",
-      "src": "./img/datavisualization.svg",
+      "src": "./img/datavisualization.png",
       "title": "Data Science & AI",
       "description": "Transforming complex datasets into actionable insights using **Python** and its ecosystem of libraries. Experienced in **data engineering** pipelines, machine learning, and creating interactive **data visualizations**."
     },
@@ -84,6 +84,68 @@
     },
     {
       "id": "6",
+      "src": "./img/calculator.png",
+      "title": "Basic Calculator using JavaScript",
+      "description": "This project aims to create a basic calculator using JavaScript, a popular programming language for web development.",
+      "link": "View In Github",
+      "href": "https://github.com/Lacenedihia/Calculator",
+      "website": "https://admirable-wisp-2e443e.netlify.app/",
+      "caption": "The Demo"
+    }
+  ],
+  "portfolio-2": [
+    {
+      "id": "7",
+      "src": "./img/random.png",
+      "title": "Random Quote Generator ",
+      "description": "It is a simple web application that displays random quotes to users.",
+      "link": "View In Github",
+      "href": "https://github.com/Lacenedihia/RandomQuotegenerator-",
+      "website": "https://wonderful-biscochitos-8c214b.netlify.app/",
+      "caption": "The Demo"
+    },
+    {
+      "id": "8",
+      "src": "./img/map.png",
+      "title": "Choropleth Map",
+      "description": "This project aims to visualize the population distribution in Algeria using a choropleth map.",
+      "link": "View In Github",
+      "href": "https://github.com/Lacenedihia/Choropleth-Map-Algeria-population-distribution-2020",
+      "website": "https://lacenedihia.github.io/Choropleth-Map-Algeria-population-distribution-2020/",
+      "caption": "The Demo"
+    },
+    {
+      "id": "9",
+      "src": "./img/heatmap.png",
+      "title": "Heatmap",
+      "description": "This project aims to create a heatmap that visualizes the distribution of a specific disease before and after the introduction of a vaccine. ",
+      "link": "View In Github",
+      "href": "https://github.com/Lacenedihia/Heatmap",
+      "website": "https://65d9a62461370cc5a187c846--adorable-torrone-4ac080.netlify.app/",
+      "caption": "The Demo"
+    },
+    {
+      "id": "10",
+      "src": "./img/scatterplot.png",
+      "title": "ScatterPlot",
+      "description": "the Iris dataset, comprises 150 samples of iris flowers, each characterized by four features.",
+      "link": "View In Github",
+      "href": "https://github.com/Lacenedihia/ScatterPlot",
+      "website": "https://incredible-klepon-1eec40.netlify.app/",
+      "caption": "The Demo"
+    },
+    {
+      "id": "11",
+      "src": "./img/bar chart.png",
+      "title": "Interactive Legend Bar Chart ",
+      "description": "This project aims to create a bar chart that visualizes the distribution of different religions in various countries.",
+      "link": "View In Github",
+      "href": "https://github.com/Lacenedihia/Bar-chart-",
+      "website": "https://inspiring-swan-6e10c4.netlify.app/",
+      "caption": "The Demo"
+    },
+    {
+      "id": "12",
       "src": "./img/calculator.png",
       "title": "Basic Calculator using JavaScript",
       "description": "This project aims to create a basic calculator using JavaScript, a popular programming language for web development.",

@@ -46,13 +46,13 @@
                 "id": "1",
                 "src": "./img/programming.png",
                 "title": "Full-Stack Web Development",
-                "description": "Designing, developing, and deploying modern web applications. Proficient in front-end frameworks like **React** and **Vue.js**, with a strong command of back-end technologies using **Node.js**."
+                "description": "Designing, developing, and deploying modern web applications. Proficient in front-end frameworks like React and Vue.js, with a strong command of back-end technologies using Node.js."
             },
             {
                 "id": "2",
                 "src": "./img/datavisualization.png",
                 "title": "Data Science & AI",
-                "description": "Transforming complex datasets into actionable insights using **Python** and its ecosystem of libraries. Experienced in **data engineering** pipelines, machine learning, and creating interactive **data visualizations**."
+                "description": "Transforming complex datasets into actionable insights using Python and its ecosystem of libraries. Experienced in data engineering pipelines, machine learning, and creating interactive data visualizations."
             },
             {
                 "id": "3",
@@ -64,18 +64,50 @@
                 "id": "4",
                 "src": "./img/blender.png",
                 "title": "3D Modeling & Simulation",
-                "description": "Creating and simulating 3D models of antennas and electromagnetic components for engineering analysis using **CST Studio Suite**."
+                "description": "Creating and simulating 3D models of antennas and electromagnetic components for engineering analysis using CST Studio Suite."
             },
             {
                 "id": "5",
                 "src": "./img/powerpoint.png",
                 "title": "Technical Communication",
-                "description": "Effectively communicating complex technical concepts and project outcomes through professional-grade reports and presentations. Experienced with tools like **Overleaf (LaTeX)** for academic writing and **PowerPoint** for visual presentations."
+                "description": "Effectively communicating complex technical concepts and project outcomes through professional-grade reports and presentations. Experienced with tools like Overleaf (LaTeX) for academic writing and PowerPoint for visual presentations."
             }
         ]
     },
     "portfolio": {
         "portfolio_1": [
+            {
+                "id": "1",
+                "src": "./img/load.jpeg",
+                "title": "Data Science Challenge",
+                "description": "A Data Science Coding Competition project working with a real-world dataset to build a prediction or classification model. Participants used Python and Jupyter Notebook to tackle the problem, focusing on data manipulation, feature engineering, and model evaluation. The competition provided an opportunity for learners to apply their problem-solving and critical thinking skills, as well as gain experience in machine learning algorithms and data visualization techniques.",
+                "link": "View In Github",
+                "href": "https://sharedzplnxniz.labs.coursera.org/notebooks/ChurnPrediction.ipynb",
+                "website": "https://sharedzplnxniz.labs.coursera.org/notebooks/ChurnPrediction.ipynb",
+                "caption": "The Demo"
+            },
+            {
+                "id": "2",
+                "src": "./img/datasciencechallenge.jpeg",
+                "title": "Data Science Coding Challenge Loan Default Prediction",
+                "description": "A Data Science Coding Competition project working with a real-world dataset to build a prediction or classification model. Participants used Python and Jupyter Notebook to tackle the problem, focusing on data manipulation, feature engineering, and model evaluation. The competition provided an opportunity for learners to apply their problem-solving and critical thinking skills, as well as gain experience in machine learning algorithms and data visualization techniques.",
+                "link": "View In Github",
+                "href": "https://sharedeeknlmxm.labs.coursera.org/notebooks/LoanDefaultPrediction.ipynb",
+                "website": "https://sharedeeknlmxm.labs.coursera.org/notebooks/LoanDefaultPrediction.ipynb",
+                "caption": "The Demo"
+            },
+            {
+                "id": "3",
+                "src": "./img/green.png",
+                "title": "Green Digital Skills Capstone Project",
+                "description": " Capstone Project for the immersive 3 months program 'GDS'",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/GDS-Eco-Redesign",
+                "website": "https://main--efredesign.netlify.app/",
+                "caption": "The Demo"
+            }
+        ],
+        "portfolio_2": [
             {
                 "id": "1",
                 "src": "./img/random.png",
@@ -137,25 +169,100 @@
                 "caption": "The Demo"
             }
         ],
-        "PowerPoint": [
+        "portfolio_3": [
             {
                 "id": "1",
-                "src": "./img/ppt1.png",
-                "name": "./img/Présentation Bsc",
-                "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjGOecp-Fm5abxIuT?e=fcZDfx&nav=eyJzSWQiOjM0OCwiY0lkIjoxNDA3NTk4Mjk1fQ",
+                "src": "./img/Pokemon-Search-App.png",
+                "title": "Pokemon Search App",
+                "description": "",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Pokemon-Search-App",
+                "website": "https://effortless-arithmetic-b5e8d9.netlify.app/",
                 "caption": "The Demo"
             },
             {
                 "id": "2",
-                "src": "./img/SS.png",
-                "name": "./img/Solar System.pptx",
-                "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjFSpwuJ2Ml8kFNvA?e=uUIaEk&nav=eyJzSWQiOjI2MywiY0lkIjozMzU0MDMxODk0fQ",
+                "src": "./img/Palindrome-Checker.png",
+                "title": "Palindrome Checker",
+                "description": "",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Palindrome-Checker",
+                "website": "https://roaring-cupcake-ab7f96.netlify.app/",
                 "caption": "The Demo"
             },
             {
                 "id": "3",
-                "src": "./img/RN.png",
-                "name": "./img/Renewable Energy.pptx",
+                "src": "./img/Numbers-to-Roman-Numeral-Converter.png",
+                "title": "Numbers to Roman Numeral COnverter",
+                "description": " ",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Numbers-to-Roman-Numeral-Converter",
+                "website": "https://jade-mandazi-1069f3.netlify.app/",
+                "caption": "The Demo"
+            }
+        ],
+        "portfolio_4": [
+            {
+                "id": "1",
+                "src": "./img/Recognizing shapes in a picture-using-Opencv-.png",
+                "title": "Recognizing shapes in a picture using Opencv Public",
+                "description": "",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Recognizing-shapes-in-a-picture-using-Opencv-",
+                "website": "https://github.com/Lacenedihia/Recognizing-shapes-in-a-picture-using-Opencv-",
+                "caption": "The Demo"
+            },
+            {
+                "id": "2",
+                "src": "./img/Classifying-Radio-Signals-Using-Pytorch.png",
+                "title": "Classifying Radio Signals Using Pytorch",
+                "description": "",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Classifying-Radio-Signals-Using-Pytorch",
+                "website": "https://github.com/Lacenedihia/Classifying-Radio-Signals-Using-Pytorch",
+                "caption": "The Demo"
+            },
+            {
+                "id": "3",
+                "src": "./img/Aerial-Image-Segmentation-with-PyTorch.png",
+                "title": "Aerial Image Segmentation with PyTorch Public",
+                "description": "",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Aerial-Image-Segmentation-with-PyTorch",
+                "website": "https://github.com/Lacenedihia/Aerial-Image-Segmentation-with-PyTorch",
+                "caption": "The Demo"
+            },
+            {
+                "id": "4",
+                "src": "./img/Tracking-Robots-using-Particle-Filter.png",
+                "title": "Tracking Robots using Particle Filter Public",
+                "description": "",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Tracking-Robots-using-Particle-Filter",
+                "website": "https://github.com/Lacenedihia/Tracking-Robots-using-Particle-Filter",
+                "caption": "The Demo"
+            },
+            {
+                "id": "5",
+                "src": "./img/Visual-Perception-Visual-Cars.png",
+                "title": "Visual Perception Visual Cars",
+                "description": "",
+                "link": "View In Github",
+                "href": "https://github.com/Lacenedihia/Visual-Perception-Visual-Cars",
+                "website": "https://github.com/Lacenedihia/Visual-Perception-Visual-Cars",
+                "caption": "The Demo"
+            }
+        ],
+        "PowerPoint": [
+            {
+                "id": "2",
+                "src": "./img/Recommender-Systems-in-Python.png",
+                "website": "https://github.com/Lacenedihia/Lacenedihia-IBM-----Machine-Learning-Capstone-Course-Project-/blob/main/my%20submission/Final%20Report.pdf",
+                "caption": "The Demo"
+            },
+            {
+                "id": "3",
+                "src": "./img/SpaceX.png",
                 "website": "https://1drv.ms/p/s!AsrtoGVPYCKgjFW-IwGR0hy1CZDT?e=qK3I2U&nav=eyJzSWQiOjI1NiwiY0lkIjozMjcwNDg4MjUwfQ",
                 "caption": "The Demo"
             }
