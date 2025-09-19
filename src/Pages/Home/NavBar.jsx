@@ -112,7 +112,7 @@ function Navbar() {
         </ul>
       </div>
 
-      <div class="toggleWrapper">
+      <div className="toggleWrapper">
         <input
           type="checkbox"
           className="input"
@@ -121,8 +121,8 @@ function Navbar() {
           onChange={() => setLang(lang === "en" ? "fr" : "en")}
           aria-label="Switch language"
         />
-        <label class="toggle" for="dn">
-          <span class="toggle__handler">
+        <label className="toggle" htmlFor="dn">
+          <span className="toggle__handler">
 
           </span>
 
@@ -144,7 +144,7 @@ function Navbar() {
         {t("Contact Me")}
       </Link>
       <a></a>
-    </nav>
+    </nav >
   );
 }
 

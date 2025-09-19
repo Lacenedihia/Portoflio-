@@ -54,8 +54,7 @@ export default function ContactMe() {
   }
   return (
     <section id="Contact" className="contact--section">
-      <div data-aos="fade-up"
-        data-aos-anchor-placement="center-bottom">
+      <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <p className="sub--title"> {t("Get In Touch")}</p>
         <h2> {t("Contact Me")}</h2>
         <p className="text-lg">
@@ -100,7 +99,7 @@ export default function ContactMe() {
               autoComplete="off"
             />
           </label>
-          <label htmlFor="phone-number" className="contact--label">
+          <label htmlFor="phone-number" className="contact--label" >
             <span className="text-md">{t("Phone-number")}</span>
             <PhoneInput
               country={'us'} // default country
@@ -115,10 +114,10 @@ export default function ContactMe() {
                 required: true,
               }}
             />
-          </label>
+          </label >
 
-        </div>
-        <label htmlFor="choose-topic" className="contact--label">
+        </div >
+        <label htmlFor="choose-topic" className="contact--label" >
           <span className="text-md"> {t("Choose a topic")}</span>
           <input
             type="text"
@@ -128,7 +127,7 @@ export default function ContactMe() {
             required
             autoComplete="off"
           />
-        </label>
+        </label >
         <div data-aos="fade-left"
           data-aos-anchor-placement="center-bottom">
           <label htmlFor="message" className="contact--label">
@@ -143,13 +142,13 @@ export default function ContactMe() {
               placeholder={t("placeholder.typeMessage")}
             />
           </label>
-        </div>
+        </div >
         <div data-aos="fade-right"
           data-aos-anchor-placement="bottom-bottom">
           <button className="btn btn-primary contact--form--btn"> {t("Submit")}
           </button>
         </div>
-      </form>
-    </section>
+      </form >
+    </section >
   );
 }
