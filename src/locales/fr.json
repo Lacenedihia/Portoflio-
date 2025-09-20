@@ -81,6 +81,16 @@
         "portfolio_1": [
             {
                 "id": "1",
+                "src": "./img/dashboard.png",
+                "title": "Tableau de Bord Full-Stack",
+                "description": "Un tableau de bord complet pour la gestion de blocs avec une authentification complète et une fonctionnalité CRUD.",
+                "link": "Voir sur Github",
+                "href": "https://github.com/Lacenedihia/Admin-dashboard-Front-end",
+                "website": "https://admin-dashboard-front-end-orpin.vercel.app",
+                "caption": "Démo du Projet"
+            },
+            {
+                "id": "2",
                 "src": "./img/load.jpeg",
                 "title": "Défi en science des données",
                 "description": "Un projet de compétition de codage en science des données utilisant un ensemble de données réelles pour construire un modèle de prédiction ou de classification. Les participants ont utilisé Python et Jupyter Notebook pour aborder le problème, en se concentrant sur la manipulation des données, l'ingénierie des fonctionnalités et l'évaluation du modèle. La compétition a offert aux apprenants l'occasion d'appliquer leurs compétences en résolution de problèmes et en pensée critique, ainsi que d'acquérir de l'expérience avec les algorithmes d'apprentissage automatique et les techniques de visualisation de données.",
@@ -90,7 +100,7 @@
                 "caption": "La démo"
             },
             {
-                "id": "2",
+                "id": "3",
                 "src": "./img/datasciencechallenge.jpeg",
                 "title": "Défi de codage en science des données : Prédiction de défaut de prêt",
                 "description": "Un projet de compétition de codage en science des données utilisant un ensemble de données réelles pour construire un modèle de prédiction ou de classification. Les participants ont utilisé Python et Jupyter Notebook pour aborder le problème, en se concentrant sur la manipulation des données, l'ingénierie des fonctionnalités et l'évaluation du modèle. La compétition a offert aux apprenants l'occasion d'appliquer leurs compétences en résolution de problèmes et en pensée critique, ainsi que d'acquérir de l'expérience avec les algorithmes d'apprentissage automatique et les techniques de visualisation de données.",
@@ -100,7 +110,7 @@
                 "caption": "La démo"
             },
             {
-                "id": "3",
+                "id": "4",
                 "src": "./img/green.png",
                 "title": "Projet de fin d'études Green Digital Skills",
                 "description": "Projet de fin d'études pour le programme immersif de 3 mois 'GDS'",

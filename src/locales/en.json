@@ -78,6 +78,16 @@
         "portfolio_1": [
             {
                 "id": "1",
+                "src": "./img/dashboard.png",
+                "title": "Full-Stack Dashboard",
+                "description": "A comprehensive dashboard for block management with full authentication and CRUD functionality.",
+                "link": "View in Github",
+                "href": "https://github.com/Lacenedihia/Admin-dashboard-Front-end",
+                "website": "https://admin-dashboard-front-end-orpin.vercel.app",
+                "caption": "Project Demo"
+            },
+            {
+                "id": "2",
                 "src": "./img/load.jpeg",
                 "title": "Data Science Challenge",
                 "description": "A Data Science Coding Competition project working with a real-world dataset to build a prediction or classification model. Participants used Python and Jupyter Notebook to tackle the problem, focusing on data manipulation, feature engineering, and model evaluation. The competition provided an opportunity for learners to apply their problem-solving and critical thinking skills, as well as gain experience in machine learning algorithms and data visualization techniques.",
@@ -87,7 +97,7 @@
                 "caption": "The Demo"
             },
             {
-                "id": "2",
+                "id": "3",
                 "src": "./img/datasciencechallenge.jpeg",
                 "title": "Data Science Coding Challenge Loan Default Prediction",
                 "description": "A Data Science Coding Competition project working with a real-world dataset to build a prediction or classification model. Participants used Python and Jupyter Notebook to tackle the problem, focusing on data manipulation, feature engineering, and model evaluation. The competition provided an opportunity for learners to apply their problem-solving and critical thinking skills, as well as gain experience in machine learning algorithms and data visualization techniques.",
@@ -97,7 +107,7 @@
                 "caption": "The Demo"
             },
             {
-                "id": "3",
+                "id": "4",
                 "src": "./img/green.png",
                 "title": "Green Digital Skills Capstone Project",
                 "description": " Capstone Project for the immersive 3 months program 'GDS'",
