@@ -1,6 +1,6 @@
 import Aos from "aos";
 import 'aos/dist/aos.css';
-import BScthesis from "../../data/resume.pdf"
+import BScthesis from "../../data/thesis.pdf"
 import { useEffect } from "react";
 import { useTranslation } from "../../translation.jsx";
 export default function AboutMe() {
@@ -11,7 +11,7 @@ export default function AboutMe() {
   return (
     <section id="AboutMe" className="about--section">
       <div className="about--section--img" data-aos="fade-up"
-        ddata-aos-anchor-placement="center-bottom">
+        data-aos-anchor-placement="center-bottom">
         <img src="./img/20_out.png" alt="About Me" />
       </div>
       <div className="hero--section--content--box about--section--box">
