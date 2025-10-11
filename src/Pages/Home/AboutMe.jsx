@@ -1,6 +1,7 @@
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import BScthesis from "../../data/thesis.pdf"
+import Certificates from "../../data/Certificates.pdf"
 import { useEffect } from "react";
 import { useTranslation } from "../../translation.jsx";
 export default function AboutMe() {
@@ -41,6 +42,27 @@ export default function AboutMe() {
                 />
               </svg>
               {t("BSc thesis")}
+            </button>
+          </a>
+          <a
+            download='Certificates' href={Certificates} style={{ textDecoration: 'none' }}
+          >
+            <button className="btn btn-download">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 640 512"
+                fill="none"
+              >
+                <path
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M320 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160zm156.8-48C462 361 397.4 416 320 416s-142-55-156.8-128H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H163.2C178 151 242.6 96 320 96s142 55 156.8 128H608c17.7 0 32 14.3 32 32s-14.3 32-32 32H476.8z"
+                  fill="currentColor"
+                />
+              </svg>
+              {t("My Certificates")}
             </button>
           </a>
         </div>

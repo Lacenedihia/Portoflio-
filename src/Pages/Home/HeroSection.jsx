@@ -1,6 +1,7 @@
 
 import cvfr from "../../data/CV_Dihia_LACENE_fr.pdf"
 import cveng from "../../data/CV_Dihia_LACENE_eng.pdf"
+
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";

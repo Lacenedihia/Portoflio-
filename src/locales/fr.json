@@ -3,6 +3,7 @@
     "BSc thesis": "Projet de fin d'études",
     "Programming": "Programmation",
     "Home": "Accueil",
+    "My Certificates": " Mes Certificats",
     "About Me": "À Propos de Moi",
     "Portfolio": "Portfolio",
     "Contact": "Contact",
@@ -29,7 +30,7 @@
     "about": {
         "about": "À Propos",
         "aboutme": "À Propos de Moi",
-        "description": "Récemment diplômé d'un Master en Ingénierie des Télécommunications, je suis un professionnel polyvalent avec de solides bases en électronique, en IA et en science des données. J'ai une expérience pratique du développement web front-end et back-end en utilisant React, Vue.js et Node.js, ce qui me permet de réaliser des projets complets de A à Z. Je suis compétent pour mettre à profit mon expertise technique afin de résoudre des problèmes et je suis passionné par le développement de solutions qui se trouvent à l'intersection de l'ingénierie et de la technologie."
+        "description": "Je suis récemment diplômé d'un master en ingénierie des télécommunications et possède de solides connaissances en électronique, en intelligence artificielle et en science des données. Mon expérience couvre à la fois le développement web front-end et back-end à l'aide de React, Vue.js et Node.js, ce qui me permet de concevoir et de mettre en œuvre des solutions complètes de bout en bout. Je suis motivé par le défi qui consiste à transformer des concepts techniques complexes en applications pratiques et percutantes qui font le pont entre l'ingénierie et la technologie."
     },
     "hero": {
         "greeting": "Salut,",
